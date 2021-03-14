@@ -1,4 +1,3 @@
-package com.example.contract-rest-service.SNAPSHOT.contracts
 
 org.springframework.cloud.contract.spec.Contract.make {
     description "should return person by id=1"
