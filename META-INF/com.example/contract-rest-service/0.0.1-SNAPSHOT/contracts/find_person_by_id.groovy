@@ -1,5 +1,3 @@
-package contracts
-
 org.springframework.cloud.contract.spec.Contract.make {
     description "should return person by id=1"
 
