@@ -1,0 +1,16 @@
+{
+  "id" : "a28da236-e8dd-426e-ad30-8a5f788aaabc",
+  "request" : {
+    "url" : "/person/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"id\":1,\"name\":\"foo\",\"surname\":\"bee\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "a28da236-e8dd-426e-ad30-8a5f788aaabc"
+}
