@@ -1,5 +1,5 @@
 {
-  "id" : "144cee8c-b687-45a5-a7d9-8d90319292c0",
+  "id" : "e8561ab0-c5a9-430e-bb5b-eb1e4344b0d7",
   "request" : {
     "url" : "/person/1",
     "method" : "GET"
@@ -12,5 +12,5 @@
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "144cee8c-b687-45a5-a7d9-8d90319292c0"
+  "uuid" : "e8561ab0-c5a9-430e-bb5b-eb1e4344b0d7"
 }
