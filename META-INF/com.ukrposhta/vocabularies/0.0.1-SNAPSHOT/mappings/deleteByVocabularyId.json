@@ -1,0 +1,16 @@
+{
+  "id" : "c48693bd-8077-4a9b-86cb-88a8f019e0a6",
+  "request" : {
+    "url" : "/api/vocabulary/3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"result\":\"OK\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "c48693bd-8077-4a9b-86cb-88a8f019e0a6"
+}

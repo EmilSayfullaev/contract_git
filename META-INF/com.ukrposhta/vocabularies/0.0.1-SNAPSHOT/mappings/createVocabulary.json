@@ -1,0 +1,34 @@
+{
+  "id" : "c1327565-bd45-4ccd-b230-55af0d0aae04",
+  "request" : {
+    "url" : "/api/create-vocabulary",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[*][?(@.['vocabulary_name'] == 'vocabulary_name')]"
+    }, {
+      "matchesJsonPath" : "$[*][?(@.['system_name'] == 'system_name')]"
+    }, {
+      "matchesJsonPath" : "$[*][?(@.['system'] == true)]"
+    }, {
+      "matchesJsonPath" : "$[*].['vocabulary_content'][*][?(@.['item_id'] == '3fa85f64-5717-4562-b3fc-2c963f66afa6')]"
+    }, {
+      "matchesJsonPath" : "$[*].['vocabulary_content'][*][?(@.['name'] == 'name')]"
+    }, {
+      "matchesJsonPath" : "$[*].['vocabulary_content'][*][?(@.['value'] == 'value')]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"result\":\"OK\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "c1327565-bd45-4ccd-b230-55af0d0aae04"
+}

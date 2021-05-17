@@ -1,0 +1,16 @@
+{
+  "id" : "dd99b4b0-4fb8-4cf7-84c0-12a958d5d73f",
+  "request" : {
+    "url" : "/api/vocabulary/3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"vocabulary_id\":\"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\"vocabulary_name\":\"vocabulary_name\",\"vocabulary_content\":[{\"item_id\":\"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\"name\":\"name\",\"value\":\"value\"}],\"system_name\":\"system_name\",\"system\":true}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "dd99b4b0-4fb8-4cf7-84c0-12a958d5d73f"
+}
