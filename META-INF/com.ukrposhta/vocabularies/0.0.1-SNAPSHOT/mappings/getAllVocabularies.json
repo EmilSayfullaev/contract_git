@@ -1,5 +1,5 @@
 {
-  "id" : "a87afd52-b388-41cf-bd28-cf647908668a",
+  "id" : "21c356de-7582-41d8-b4f8-5ebc3b2d582a",
   "request" : {
     "url" : "/api/vocabularies?limit=10&offset=0",
     "method" : "GET"
@@ -12,5 +12,5 @@
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "a87afd52-b388-41cf-bd28-cf647908668a"
+  "uuid" : "21c356de-7582-41d8-b4f8-5ebc3b2d582a"
 }

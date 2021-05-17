@@ -1,5 +1,5 @@
 {
-  "id" : "35031a58-8b9c-4c1e-9ccf-4278f3211f4f",
+  "id" : "c66b6c49-724a-4824-8841-07cd1f59ddf8",
   "request" : {
     "url" : "/api/create-vocabulary",
     "method" : "POST",
@@ -30,5 +30,5 @@
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "35031a58-8b9c-4c1e-9ccf-4278f3211f4f"
+  "uuid" : "c66b6c49-724a-4824-8841-07cd1f59ddf8"
 }

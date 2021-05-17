@@ -1,5 +1,5 @@
 {
-  "id" : "2e4b4018-bb8a-4705-a99a-7d39b846d711",
+  "id" : "c09a9670-dc66-4603-b6ea-e7ed65e3978a",
   "request" : {
     "url" : "/api/vocabulary/3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "method" : "PUT",
@@ -30,5 +30,5 @@
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "2e4b4018-bb8a-4705-a99a-7d39b846d711"
+  "uuid" : "c09a9670-dc66-4603-b6ea-e7ed65e3978a"
 }
